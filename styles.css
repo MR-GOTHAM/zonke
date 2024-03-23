@@ -1,0 +1,71 @@
+body {
+display: grid;
+place-items: center;
+background-color: ;
+width: 100vw;
+box-sizing: border-box;
+}
+
+form {
+    
+   box-shadow: 0 0 9px  blue;
+   border-radius: 3px;
+   display: grid;
+   place-items: center;
+}
+
+
+img {
+    border-radius: 3px;
+}
+
+figcaption {
+    text-decoration: underline;
+    color: red;
+}
+
+h3 {
+    color: green;
+}
+
+
+.txt {
+    height: 25px;
+    margin: 5px;
+    border-radius: 3px;
+    border: 2px solid #00ff81;
+    padding: 3px;
+    
+}
+
+.pass {
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid #00ff81;
+    padding: 3px;
+}
+
+.btn {
+margin: 6px;
+width: 170px;
+background-color: green;
+color: white;
+border: none;
+height: 30px;
+border-radius: 3px;
+}
+
+
+p {
+    
+    margin-bottom: 0;
+    margin-top: 0;
+    color: red;
+}
+
+@media screen and (min-width: 550px;){
+     body {
+         background-color: whitesmoke;
+         width: 80%;
+     }
+}
